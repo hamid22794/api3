@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 
 class CourseController extends Controller
 {
-    //Course Register
+    //Course Register Method
     public function courseEnrollment(Request $request)
     {
         $request->validate([
